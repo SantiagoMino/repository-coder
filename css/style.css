@@ -9,7 +9,7 @@ body {
   line-height: 15px;
   font-size: 12px;
   margin: 0%;
-  background: url(media/estrellas.jpg);
+  background: url(../media/estrellas.jpg);
   background-size: 100%;
 }
 .ayuda {
