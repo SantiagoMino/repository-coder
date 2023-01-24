@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+             <!-- Logo del browser -->
+       <link rel="shortcut icon" href="../media/logoipsum-269.svg" type="image/x-icon"/>
+             <!-- Styles -->
+       <link rel="stylesheet" href="../style.css"/>
+             <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet"/>
+             <!-- Fontawesome -->
+     <link rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+       integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+       crossorigin="anonymous"
+       referrerpolicy="no-referrer"/>
+    <title>Ayuda</title>
+  </head>
+  <body>
+    <!--Header-->
+  <header>
+    <div class="container">
+        <div class="row">
+          <a href="../index.html" class="logo">
+          <img src="../media/logoipsum-269.svg" alt="Logoipsum App"/>
+        </a>
+     <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"> <a class="nav__link" href="../index.html">Inicio</a></li>
+           <li class="nav__item"> <a class="nav__link" href="pages/funciones.html">Funciones</a></li>
+           <li class="nav__item"> <a class="nav__link" href="nosotros.html">Nosotros</a></li>  
+          <li class="nav__item"> <a class="nav__link" href="micuenta.html">Mi Cuenta</a></li> 
+         <li class="nav__item"><a class="nav__link" href="ayuda.html">Ayuda</a></li>
+       </ul>
+    </nav> 
+    </header>
+    <section class="ayuda">
+       <h1>Contacto:</h1>
+       <form action="">
+         <fieldset>
+           <label for="nombre">Nombre:</label>
+           <input
+             type="text"
+             name="nombre"
+             id="nombre"
+             placeholder="escriba aqui su nombre"/>
+          <br />
+          <label for="apellido">Apellido:</label>
+          <input type="text" name="apellido" id="apellido" placeholder="escriba aqui su apellido"/>
+
+          <div>hombre</div>
+          <input type="radio" name="sexo" value="hombre" />
+          <div>mujer</div>
+          <input type="radio" name="sexo" value="mujer" />
+          <div>Acepta los terminos de condiciones</div>
+          <input type="checkbox" name="acepta" value="1" required />
+          <br />
+          <select name="talles" id="talles">
+            <option value="L">Large</option>
+             <option value="M">Medium</option>
+            <option value="S">Small</option>
+          </select>
+          <br />
+          <label for="mensaje">Mensaje</label>
+          <br />
+          <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+          <br />
+          <input type="submit" value="Enviar" class="cofondo" />
+          <input type="reset" value="Limpiar formulario" class="cofondo-2" />
+        </fieldset>
+      </form>
+    </section>
+    <section>
+      <p class="mapa">Encontranos:</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54500.627364047774!2d-58.041621449999994!3d-31.378588099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95ade8093e560701%3A0x5d1d34b223a6f091!2sConcordia%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1673446564235!5m2!1ses-419!2sar" width="150" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+                <!-- Footer -->
+<footer class="footer">
+      <div class="footer-sm">
+        <div class="container">
+          <div class="row footer-sm__icons">
+    <div>Buscanos en las redes</div>
+      <div class="col">
+           <!-- iconos sociales -->
+           <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+         <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+       </div>
+      </div>
+     </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row footer-bottom__copyright">
+            <div class="col">
+      &copy; Copyright 2021 <a href="#">Mi Primer Página Web</a> | Creada por
+        <a href="https://www.instagram.com/santiago.______/?next=%2F">Santiago Miño</a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+</footer>
+</body>
+</html>
