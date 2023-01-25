@@ -3,17 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  font-family: "Montserrat", sans-serif;
-  line-height: 15px;
-  font-size: 12px;
-  margin: 0%;
-  background: url(../media/estrellas.jpg);
-  background-size: 100%;
+@media (max-width: 767px) {
+  body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 15px;
+    font-size: 12px;
+    margin: 0%;
+    background: url(../media/pexels.jpeg);
+    background-size: 100%;
+    color: white;
+  }
 }
-.ayuda {
-  color: white;
+@media (min-width: 768px) {
+  body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 15px;
+    font-size: 15 px;
+    margin: 0%;
+    background: url(../media/estrellas.jpg);
+    background-size: 100%;
+    color: white;
+  }
+}
+@media (max-width: 767px) {
+  p {
+    line-height: 14px;
+    font-size: 15px;
+  }
+}
+
+@media (orientation: portrait) {
+  header {
+    background-color: #212121;
+  }
 }
 
 .cofondo {
