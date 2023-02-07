@@ -1,0 +1,20 @@
+{
+  "name": "preentrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoMino/repository-coder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiagoMino/repository-coder/issues"
+  },
+  "homepage": "https://github.com/SantiagoMino/repository-coder#readme"
+}
