@@ -1,0 +1,98 @@
+.cofondo {
+  background: $tertiary-color;
+}
+
+.cofondo-2 {
+  background: $quaternary-color;
+}
+
+img {
+  max-width: 50%;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+.contenido {
+  width: 350px;
+  margin: 25px;
+  height: 500px;
+
+  video {
+    float: right;
+    width: 170px;
+    height: 250px;
+  }
+}
+
+.img-text-flex {
+  display: flex;
+  color: $cool-color-1;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.tabla {
+  color: $cool-color-1;
+}
+.text {
+  color: $cool-color-1;
+}
+.text-h1 {
+  color: $cool-color-1;
+}
+
+.container {
+  width: 100%;
+
+  max-width: 1320px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.col {
+  width: 100%;
+  font-weight: lighter;
+}
+
+.display-2--description {
+  margin-top: 1.2rem;
+  display: inline-block;
+}
+
+.mapa {
+  color: $cool-color-1;
+}
+.download_flex {
+  text-align: center;
+}
+.download_1 {
+  background-color: black;
+  color: $cool-color-1;
+  font-weight: lighter;
+  margin-bottom: 0px;
+}
+.item_flex {
+  color: $cool-color-1;
+  font-size: 50px;
+  padding: 30px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 10px;
+  img {
+    width: 100%;
+    border-radius: 15px;
+  }
+}
+
+.form-class {
+  background-image: $primary-color;
+}

@@ -1,0 +1,45 @@
+h2 {
+  list-style: none;
+  color: #484848;
+  font-size: 80px;
+  letter-spacing: 5px;
+  animation: Descargas 1.4s linear infinite;
+}
+@keyframes Descargas {
+  0% {
+    color: #484848;
+    text-shadow: none;
+  }
+  90% {
+    color: #484848;
+    text-shadow: none;
+  }
+  100% {
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
+  }
+}
+h2 :nth-child(1) {
+  animation-delay: 0s;
+}
+h2:nth-child(2) {
+  animation-delay: 0.1s;
+}
+h2:nth-child(3) {
+  animation-delay: 0.2s;
+}
+h2:nth-child(4) {
+  animation-delay: 0.3s;
+}
+h2:nth-child(5) {
+  animation-delay: 0.4s;
+}
+h2 :nth-child(6) {
+  animation-delay: 0.5s;
+}
+h2 :nth-child(7) {
+  animation-delay: 0.6s;
+}
+h2 :nth-child(8) {
+  animation-delay: 0.7s;
+}

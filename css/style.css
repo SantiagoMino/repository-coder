@@ -5,13 +5,14 @@
 }
 
 body {
+  background: url(../media/estrellas.jpg);
   font-family: "Montserrat", sans-serif;
   line-height: 15px;
   font-size: 12px;
   margin: 0%;
-  background: url(../media/estrellas.jpg);
   background-size: 100%;
   color: white;
+  padding-bottom: 0em;
 }
 
 @media (max-width: 767px) {
@@ -20,18 +21,6 @@ body {
     font-size: 15px;
   }
 }
-header {
-  background-color: #212121;
-}
-
-.galery {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px;
-  margin: 10px;
-}
-
 .cofondo {
   background: #569e3d linear-gradient(#79d858, #569e3d) repeat-x;
 }
@@ -54,12 +43,6 @@ svg {
   margin: 25px;
   height: 500px;
 }
-
-.contenido img {
-  width: 300px;
-  height: 250px;
-}
-
 .contenido video {
   float: right;
   width: 170px;
@@ -71,13 +54,6 @@ svg {
   color: white;
   font-size: 20px;
   line-height: 30px;
-}
-
-header {
-  background-color: #61b644;
-  position: sticky;
-  top: 0px;
-  z-index: 2;
 }
 
 .tabla {
@@ -108,42 +84,6 @@ header {
   font-weight: lighter;
 }
 
-nav {
-  display: block;
-}
-
-.nav__list {
-  list-style: none;
-  display: flex;
-}
-
-.nav__item {
-  margin: 0 0 0 1.5rem;
-}
-
-.nav__link {
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.nav__link:hover,
-.nav__link:focus {
-  opacity: 0.65;
-}
-
-.display-2 {
-  text-transform: capitalize;
-  color: white;
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.display-2--intro {
-  font-weight: 700;
-  display: inline-block;
-}
-
 .display-2--description {
   margin-top: 1.2rem;
   display: inline-block;
@@ -168,6 +108,21 @@ nav {
   color: white;
   font-size: 50px;
   padding: 30px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 10px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.form-class {
+  background-image: linear-gradient(to left, gray, black, black, black);
 }
 
 h2 {
@@ -273,25 +228,9 @@ h2 :nth-child(8) {
   text-decoration: underline;
 }
 
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 20px;
-  padding: 10px;
-}
-
-.gallery img {
-  width: 100%;
-  border-radius: 15px;
-}
-
-.gal {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-gap: 0.7rem;
-  width: 100%;
-  padding: 10px;
+img {
+  height: 250px;
+  width: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */

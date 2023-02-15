@@ -1,0 +1,48 @@
+.footer {
+  background-image: $primary-color;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  padding: 0em 0;
+  color: $cool-color-1;
+  width: 100%;
+  margin: auto;
+}
+
+.footer-sm {
+  background-image: $secondary-color;
+  color: $cool-color-1;
+}
+
+.footer-sm a {
+  color: $cool-color-1;
+}
+
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.footer-sm__icons {
+  text-align: center;
+}
+
+.footer-bottom {
+  padding: 0.5rem 0;
+}
+
+.footer-bottom__copyright {
+  text-align: center;
+  color: $cool-color;
+  font-weight: 700;
+}
+
+.footer-bottom__copyright a {
+  color: $cool-color;
+  text-decoration: none;
+}
+
+.footer-bottom__copyright a:hover {
+  color: #72c777;
+  text-decoration: underline;
+}

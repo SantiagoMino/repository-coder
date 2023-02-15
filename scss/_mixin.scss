@@ -1,0 +1,7 @@
+@mixin img($width, $height) {
+  height: $height;
+  width: $width;
+}
+img {
+  @include img(300px, 250px);
+}
