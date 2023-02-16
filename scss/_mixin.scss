@@ -5,3 +5,13 @@
 img {
   @include img(300px, 250px);
 }
+@mixin tabla {
+  color: $cool-color-1;
+}
+
+.text {
+  @include tabla;
+}
+.text-h1 {
+  @include tabla;
+}

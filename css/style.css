@@ -60,14 +60,6 @@ svg {
   color: white;
 }
 
-.text {
-  color: white;
-}
-
-.text-h1 {
-  color: white;
-}
-
 .container {
   width: 100%;
   max-width: 1320px;
@@ -123,6 +115,11 @@ svg {
 
 .form-class {
   background-image: linear-gradient(to left, gray, black, black, black);
+}
+
+iframe {
+  width: 1350px;
+  height: 450px;
 }
 
 h2 {
@@ -231,6 +228,14 @@ h2 :nth-child(8) {
 img {
   height: 250px;
   width: 300px;
+}
+
+.text {
+  color: white;
+}
+
+.text-h1 {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

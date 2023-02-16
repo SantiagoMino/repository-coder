@@ -37,12 +37,6 @@ svg {
 .tabla {
   color: $cool-color-1;
 }
-.text {
-  color: $cool-color-1;
-}
-.text-h1 {
-  color: $cool-color-1;
-}
 
 .container {
   width: 100%;
@@ -95,4 +89,8 @@ svg {
 
 .form-class {
   background-image: $primary-color;
+}
+iframe {
+  width: 1350px;
+  height: 450px;
 }
