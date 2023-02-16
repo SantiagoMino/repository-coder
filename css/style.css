@@ -117,11 +117,6 @@ svg {
   background-image: linear-gradient(to left, gray, black, black, black);
 }
 
-iframe {
-  width: 1350px;
-  height: 450px;
-}
-
 h2 {
   list-style: none;
   color: #484848;
