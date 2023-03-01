@@ -112,7 +112,7 @@ svg {
 
 @media (max-width: 768px) {
   .download_1 {
-    position: relative;
+    position: fixed;
     text-align: center;
     bottom: -330px;
     font-size: 30px;
@@ -213,6 +213,12 @@ h2 :nth-child(8) {
   margin: auto;
 }
 
+@media (min-width: 667px) {
+  .footer {
+    position: relative !important;
+    bottom: 0;
+  }
+}
 .footer-sm {
   background-image: linear-gradient(to left, black, black, black, gray);
   color: white;

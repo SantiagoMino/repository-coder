@@ -8,6 +8,12 @@
   width: 100%;
   margin: auto;
 }
+@media (min-width: 667px) {
+  .footer {
+    position: relative !important;
+    bottom: 0;
+  }
+}
 
 .footer-sm {
   background-image: $secondary-color;
