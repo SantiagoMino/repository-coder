@@ -8,10 +8,9 @@
   width: 100%;
   margin: auto;
 }
-@media (min-width: 667px) {
+@media (max-width: 667px) {
   .footer {
-    position: relative !important;
-    bottom: 0;
+    position: relative;
   }
 }
 
