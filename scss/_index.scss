@@ -64,13 +64,25 @@ svg {
 }
 .download_flex {
   text-align: center;
+  position: relative;
+  bottom: -100px;
 }
 .download_1 {
-  background-color: black;
+  background-color: transparent;
   color: $cool-color-1;
-  font-weight: lighter;
+  font-weight: bolder;
   margin-bottom: 0px;
 }
+
+@media (max-width: 768px) {
+  .download_1 {
+    position: relative;
+    text-align: center;
+    bottom: -330px;
+    font-size: 30px;
+  }
+}
+
 .item_flex {
   color: $cool-color-1;
   font-size: 50px;
@@ -89,4 +101,9 @@ svg {
 
 .form-class {
   background-image: $primary-color;
+}
+
+.bar {
+  font-weight: 600;
+  background-color: transparent !important;
 }

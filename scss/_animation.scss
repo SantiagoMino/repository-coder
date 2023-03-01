@@ -1,17 +1,17 @@
 h2 {
   list-style: none;
-  color: #484848;
+  color: black;
   font-size: 80px;
   letter-spacing: 5px;
-  animation: Descargas 1.4s linear infinite;
+  animation: Ve 1.4s linear infinite;
 }
-@keyframes Descargas {
+@keyframes Ve {
   0% {
-    color: #484848;
+    color: black;
     text-shadow: none;
   }
   90% {
-    color: #484848;
+    color: black;
     text-shadow: none;
   }
   100% {
@@ -42,4 +42,8 @@ h2 :nth-child(7) {
 }
 h2 :nth-child(8) {
   animation-delay: 0.7s;
+}
+
+.animation {
+  animation: desvanecimiento 1s linear infinite;
 }
