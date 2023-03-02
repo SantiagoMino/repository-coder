@@ -1,17 +1,12 @@
 .footer {
   background-image: $primary-color;
   text-align: center;
-  position: absolute;
+
   bottom: 0;
   padding: 0em 0;
   color: $cool-color-1;
   width: 100%;
   margin: auto;
-}
-@media (max-width: 667px) {
-  .footer {
-    position: relative;
-  }
 }
 
 .footer-sm {

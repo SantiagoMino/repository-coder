@@ -205,7 +205,6 @@ h2 :nth-child(8) {
 .footer {
   background-image: linear-gradient(to left, gray, black, black, black);
   text-align: center;
-  position: absolute;
   bottom: 0;
   padding: 0em 0;
   color: white;
@@ -213,11 +212,6 @@ h2 :nth-child(8) {
   margin: auto;
 }
 
-@media (max-width: 667px) {
-  .footer {
-    position: relative;
-  }
-}
 .footer-sm {
   background-image: linear-gradient(to left, black, black, black, gray);
   color: white;
