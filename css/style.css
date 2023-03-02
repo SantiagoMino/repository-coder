@@ -144,6 +144,10 @@ svg {
   background-color: transparent !important;
 }
 
+.contenedor {
+  height: 80vh;
+}
+
 h2 {
   list-style: none;
   color: black;
